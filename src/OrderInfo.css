@@ -1,0 +1,20 @@
+.order_info {
+    border: 2px solid blueviolet;
+    margin-top: 10px;
+    max-width: 700px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.grid_container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 2px solid blueviolet;
+}
